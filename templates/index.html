@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="//i.lenguajehtml.com/css/index.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Interprete JLine</title>
+  </head>
+  <body>
+    <footer class="main">
+      <div class="square">
+        <h2>IDE JustOnline</h2>
+      </div>
+    </footer>
+
+
+    <form action="/compilar" method="POST">
+    <div class="border border-primary container square">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-dark " style="background-color: #1d2f3b;" >
+          <button class="navbar-brand" style="background-color: #1d2f3b;">Cargar</button>
+          <button id="idDescargar" class="navbar-brand" style="background-color: #1d2f3b;">Descargar</button>
+          <button type="submit"  class="navbar-brand" style="background-color: #1d2f3b;">Compilar</button>
+        </nav>
+        
+
+      </div>
+      <div class="col ">
+        <textarea placeholder="Escribe aquí el codigo... Ejemplo  
+        
+        inicio|
+          mientras[a<b]|
+             a=10
+          |
+        |" name="texto"
+            cols="90" rows="15"></textarea>
+      </div>
+    </div>
+  </form>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+
+    <script src="/static/pruebas.js"></script>
+
+    <footer class="main">
+      <div class="square">
+        <h2>Lenguaje JLine</h2>
+        <p>Interprete para el curso de 'Compiladores'  presentado a ING.  Daniel González</p>
+        <p id="footer">Creado y mantenido por <a href="">@Maria_Fernanada y @Shirley_Manrique</a> con <span class="❤"><i class="fa fa-heart" title="<3"></i></span></p>
+        <div class="icons">
+          
+          <a href="#" title="GitHub"><i class="fab fa-2x fa-github"></i></a>
+          <a href="#" title="Linkedin"><i class="fab fa-2x fa-linkedin-in"></i></a>
+          <a href="#" title="Emezeta.com"><i class="fas fa-2x fa-globe-americas"></i></a>
+        </div>
+        
+      </div>
+    </footer>
+ 
+    
+  </body>
+</html>
